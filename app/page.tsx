@@ -1,10 +1,11 @@
+import Menu from "./components/Menu";
+
 export default function Home() {
   return (
     <div className="">
-      <main className="p-8">
-        <div className="text-2xl font-chakra">
-          Natália Nogueira
-        </div>
+      <main className="">
+        <Menu />
+        <div className="text-2xl font-chakra p-8">Natália Nogueira</div>
       </main>
     </div>
   );
